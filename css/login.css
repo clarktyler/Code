@@ -1,0 +1,104 @@
+/*//////////////////////////////////////
+////////////////login box - All Blue - White Oval LVC Logo///////////
+///////////////////////////////////////////////////////////////*/
+
+body.modal #modal-box.login-box {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+}
+
+#register_link { display: none; }
+
+body.modal #modal-box.login-box h1.span4 {
+  background: url("https://s3.amazonaws.com/SSL_Assets/SRMC/SouthSide.png") no-repeat 100% 50%;
+  background-size: 55%;
+}
+body.modal #modal-box.login-box h1, body.modal #modal-box.login-box .h1 {
+  height: 150px;
+  margin: 0;
+  background-position: top center;
+}
+
+body.modal.no-headers.webkit {
+  background-color: #CCCCCC;
+}
+
+
+#modal-box .btn { margin-right: 10px !important; }
+
+#login_form .login-options {
+padding-top: 20px;
+font-family: serif;
+font-weight: bold !important;
+color: black;
+   }
+
+label, input, button, select, textarea {
+    font-size: 15px;
+}
+
+/*change the color of 'don't know your password'*/
+body.modal #modal-box.login-box a { 
+font-family: serif;
+font-weight: bold;
+font-size: 15px;
+color: black !important;
+}
+
+
+/* MOBILE CSS */
+
+/*change location of image the image URL*/
+
+/*update the image URL*/
+
+/*update the background URL*/
+
+#f1_container {
+  background: url("https://s3.amazonaws.com/SSL_Assets/SRMC/SouthSide.png") no-repeat center top;
+  background-size: 45% auto;
+  top: 25px;
+  bottom: 25px !important;
+}
+
+/*update the image URL*/
+.face{
+background-color: #368db9;
+color: white;
+}
+
+/*resize the border or font weight of the login fields*/
+input{
+background: white;
+border-radius: 5px;
+font-weight: normal;
+}
+
+/*adjust the border, color, or shadow of the login button*/
+button[type=submit]{
+background: #48c4b7;
+border: none;
+color: white;
+text-shadow: 0 -1px 0 #006633;
+}
+
+.flip-to-back, .flip-to-front{
+text-shadow: 0 1px 0 #fff;
+border: none;
+border-radius: 6px;
+background: #dddddd; /* Old browsers */
+background: -moz-linear-gradient(top, #dddddd 0%, #f3f3f3 50%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dddddd), color-stop(50%,#f3f3f3)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #dddddd 0%,#f3f3f3 50%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #dddddd 0%,#f3f3f3 50%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #dddddd 0%,#f3f3f3 50%); /* IE10+ */
+background: linear-gradient(to bottom, #dddddd 0%,#f3f3f3 50%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-9 */
+color: #888;
+}
+
+@media (max-width:767px) {
+    body {
+        background-color: #A41034;
+    }
+}

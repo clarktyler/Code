@@ -1,0 +1,3 @@
+$(document).ready(function () {
+    $('#edit_pseudonym_form tbody').append('<tr><td><label for="pseudonym_authentication_provider">Type:</label></td><td><select id="pseudonym_authentication_provider" name="pseudonym[authentication_provider_id]"><option value="">Select</option><option value="facebook">Facebook</option><option value="google">Google</option><option value="twitter">Twitter</option><option value="linkedin">LinkedIn</option><option value="github">Github</option></select></td></tr>');
+});

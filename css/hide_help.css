@@ -1,0 +1,4 @@
+/* Hide "Report a Problem" */
+#help-dialog-options a[href="#create_ticket"] {
+  display:none !important;
+}

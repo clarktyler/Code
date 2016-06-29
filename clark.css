@@ -1,0 +1,191 @@
+/*HEADER*/
+/*Modify the header background for all catalog pages.*/
+#app-header{
+padding: 0;
+height: 100px;
+background-color: #f0f0f0;
+}
+
+/*HOME PAGE*/
+/*Modify the home page feature area background*/
+#home-page .feature-region {
+  height: 200px;
+  background-repeat: no-repeat;
+  background: #56b7b3;
+}
+/*Modify the layout for the contents of the feature area background*/
+#home-page #feature div {
+  max-width: 1000px;
+  padding-top: 40px;
+  margin: auto;
+  color: #fff;
+}
+
+/*Modify the H3 text style in the feature area. Add actual text via JavaScript */
+#home-page #feature h3 {
+  text-align: center;
+  font-size: 65px;
+font-weight: bold;
+  margin-top: 0;
+margin-bottom: 20px;
+  line-height: 1;
+font-family:Verdana, Geneva, sans-serif;
+
+}
+/*Modify the H4 text style in the feature area. Add actual text via JavaScript */
+#home-page #feature h4 {
+  text-align: center;
+  font-size: 35px;
+font-weight: bold;
+font-family:Verdana, Geneva, sans-serif;
+color: #6c6975;
+}
+
+/*SEARCH BOX*/
+
+/* Modify the search box background color*/
+#search-form.callout-region {
+  background-color: #6c6975;
+}
+
+/*REFINE YOUR SEARCH*/
+  .icon.search-refine-button__icon.icon-circle-down {
+      padding-left: 3px;
+  }
+
+  .icon.search-refine-button__icon.icon-circle-up {
+    padding-left: 3px;
+}
+
+#search-form .search-refine-button {
+    width: 200px;
+    background-color: transparent;
+    border: none;
+}
+
+
+/*BUTTONS*/
+div#callout-region {
+font-size: medium;
+font-weight: bold;
+text-align: center;
+}
+
+div#callout-region a {
+color: #fff;
+}
+
+div#callout-region {
+padding-bottom: 5px;
+padding-top: 5px;
+}
+
+form.search-form {
+    display: inline;
+    padding-left: 0px;;
+}
+
+.product-account-image-wrapper{
+max-width: 90%;
+height: 60px;
+}
+
+div#feature-legend {
+width: 410px;
+margin: auto;
+padding-top: 3px;
+}
+
+div#feature-legend a {
+padding-left: 15px;
+}
+
+img.feature-legend-image {
+height: 35px;
+}
+
+/*LOAD MORE*/
+
+button.btn.btn-info.Products__LoadMore {
+font-size: 20px
+}
+
+/*FOOTER*/
+#app-footer {
+  background-color: #6c6975;
+  padding-top: 20px;
+font-family:Verdana, Geneva, sans-serif;
+font-size: 12px;
+}
+
+#app-footer a, #app-footer ul {
+color: #fff;
+}
+.small {
+font-family:Verdana, Geneva, sans-serif;
+font-size: 12px;
+  color: #fff;
+}
+
+/*LISTING PAGE*/
+
+/*Format the listing page feature area background (top line)*/
+#product-page #feature {
+    background: #787581;
+    padding-top: 10px
+}
+
+/*Format the background inside the feature area*/
+.product-bg {
+  background-color: #f0;
+}
+
+/*To hide the account logo on listing page*/
+.product-account-logo {
+  display: none;
+}
+
+.hero-region.jumbotron.container {
+padding-top: 10px;
+padding-bottom: 5px
+}
+
+/* ENROLLMENT FORM*/
+span.PromotionCode__InputContainer {
+ display: none;
+}
+
+div#ember420 {
+    display: none;
+}
+div#ember423 {
+    display: none;
+}
+div#ember428 {
+    display: none;
+}
+div#ember430 {
+    display: none;
+}
+div#ember431 {
+    display: none;
+}
+.inspectlet-sensitive {
+    display: none;
+}
+div#ember438 {
+    display: none;
+}
+span.PromotionCode__InputContainer {
+    display: none;
+}
+
+label.control-label {
+    display: none;
+}
+div#ember450 {
+    display: none;
+}
+div#ember461 {
+    display: none;
+}

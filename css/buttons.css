@@ -1,0 +1,24 @@
+#home-page .feature-region {
+background-image: linear-gradient(to right, #657576, #f0f0f0 50%, #657576);
+height: 40px;
+}
+#search-form.callout-region {
+  background-color: #ff7500;
+}
+
+.product-account-image-wrapper{
+max-width: 90%;
+height: 60px;
+}
+
+div#feature-legend {
+width: 410px;
+margin: auto;
+padding-top: 3px;
+}
+div#feature-legend a {
+padding-left: 15px;
+}
+img.feature-legend-image {
+height: 35px;
+}

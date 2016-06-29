@@ -1,0 +1,55 @@
+/* MOBILE CSS */
+
+/*change location of image the image URL*/
+
+/*update the image URL*/
+
+/*update the background URL*/
+
+#f1_container {
+  background: url("") no-repeat center top;
+  background-size: 100% auto;
+  top: 35px;
+}
+
+/*update the image URL*/
+.face{
+background-color: #414141;
+color: white;
+}
+
+/*resize the border or font weight of the login fields*/
+input{
+background: white;
+border-radius: 5px;
+font-weight: normal;
+}
+
+/*adjust the border, color, or shadow of the login button*/
+button[type=submit]{
+background: #c78d90;
+border: none;
+color: white;
+text-shadow: 0 -1px 0 #36629b;
+}
+
+.flip-to-back, .flip-to-front{
+text-shadow: 0 1px 0 #fff;
+border: none;
+border-radius: 6px;
+background: #dddddd; /* Old browsers */
+background: -moz-linear-gradient(top, #dddddd 0%, #f3f3f3 50%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dddddd), color-stop(50%,#f3f3f3)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #dddddd 0%,#f3f3f3 50%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #dddddd 0%,#f3f3f3 50%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #dddddd 0%,#f3f3f3 50%); /* IE10+ */
+background: linear-gradient(to bottom, #dddddd 0%,#f3f3f3 50%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-9 */
+color: #888;
+}
+
+@media (max-width:767px) {
+    body {
+        background-color: #cb7f29;
+    }
+}

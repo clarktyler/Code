@@ -1,0 +1,23 @@
+.ic-Login__header .ic-Login__header__logo img {
+    max-width: 800px;
+}
+.ic-Login__header__logo, x:-moz-any-link, x:default {
+    margin-left: 0 !important;
+}
+.ic-Login__header__logo {
+    margin-left: -70%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+}
+.ic-app-header__logomark {
+       display: block;
+       background-image: none;
+
+    }
+
+ #notification-preferences .table.notification-prefs-table.table.table-columns-striped.table-bordered:nth-child(3) {
+display: none;
+}

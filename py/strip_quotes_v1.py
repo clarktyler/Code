@@ -9,4 +9,3 @@ userCsv = open(input_csv, 'rt')
 with open(output_csv, 'w') as _f:
     _f.write(userCsv.read().replace('"', ''))
 print("Alright we removed those pesky " " for you.")
-
